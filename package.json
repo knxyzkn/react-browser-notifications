@@ -1,0 +1,31 @@
+{
+  "name": "react-browser-notifications",
+  "version": "1.0.0",
+  "description": "React component to generate browser notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knxyzkn/react-browser-notifications.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "browser",
+    "api",
+    "notifications"
+  ],
+  "author": "Kaushik Nagaraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knxyzkn/react-browser-notifications/issues"
+  },
+  "homepage": "https://github.com/knxyzkn/react-browser-notifications#readme",
+  "dependencies": {
+    "push.js": "^1.0.5",
+    "react": "^16.2.0",
+    "shortid": "^2.2.8"
+  }
+}
