@@ -25,7 +25,7 @@ class ReactNotifications extends React.Component {
   }
 
   show() {
-    Notification.requestPermission(console.log);
+    Notification.requestPermission();
 
     Push.create(this.props.title, {
       body: this.props.body ? this.props.body : null,
