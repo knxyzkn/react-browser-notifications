@@ -2,7 +2,7 @@ import React from 'react';
 import Push from 'push.js';
 const shortid = require('shortid');
 
-class Notifications extends React.Component {
+class ReactNotifications extends React.Component {
 
   constructor() {
     super();
@@ -49,4 +49,4 @@ class Notifications extends React.Component {
   }
 }
 
-export default Notifications;
+export default ReactNotifications;
