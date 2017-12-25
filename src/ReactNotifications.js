@@ -25,9 +25,6 @@ class ReactNotifications extends React.Component {
   }
 
   show() {
-    let permission = Notification.requestPermission();
-
-    if(permission === 'granted')
     Push.create(this.props.title, {
       body: this.props.body ? this.props.body : null,
       icon: this.props.icon ? this.props.icon : null,
