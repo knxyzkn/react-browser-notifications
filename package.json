@@ -1,6 +1,6 @@
 {
   "name": "react-browser-notifications",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component to generate browser notifications",
   "main": "/src/index.js",
   "scripts": {
