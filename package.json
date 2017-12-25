@@ -1,6 +1,6 @@
 {
   "name": "react-browser-notifications",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React component to generate browser notifications",
   "main": "build/index.js",
   "scripts": {
@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/knxyzkn/react-browser-notifications#readme",
   "devDependencies": {
-   "babel-cli": "^6.24.1",
-   "babel-core": "^6.24.1",
-   "babel-loader": "^7.0.0",
-   "babel-plugin-transform-object-rest-spread": "^6.23.0",
-   "babel-plugin-transform-react-jsx": "^6.24.1",
-   "babel-preset-env": "^1.5.1"
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
   },
   "dependencies": {
     "push.js": "^1.0.5",
