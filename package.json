@@ -4,6 +4,8 @@
   "description": "React component to generate browser notifications",
   "main": "/src/index.js",
   "scripts": {
+    "build": "babel src --out-dir dist --ignore *.spec.js,*.snap",
+    "build:watch": "babel src --out-dir dist --watch --ignore *.spec.js,*.snap",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,9 +25,32 @@
     "url": "https://github.com/knxyzkn/react-browser-notifications/issues"
   },
   "homepage": "https://github.com/knxyzkn/react-browser-notifications#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^19.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "coveralls": "^2.13.1",
+    "enzyme": "^2.8.2",
+    "jest-cli": "^19.0.2",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.5.4",
+    "standard": "^10.0.2"
+  },
   "dependencies": {
     "push.js": "^1.0.5",
     "react": "^16.2.0",
     "shortid": "^2.2.8"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-2"
+    ]
   }
 }
