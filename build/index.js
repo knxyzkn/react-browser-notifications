@@ -261,8 +261,6 @@ var ReactNotifications = function (_React$Component) {
   }, {
     key: 'show',
     value: function show() {
-      Notification.requestPermission(console.log);
-
       _push2.default.create(this.props.title, {
         body: this.props.body ? this.props.body : null,
         icon: this.props.icon ? this.props.icon : null,
