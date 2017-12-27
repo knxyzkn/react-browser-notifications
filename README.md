@@ -32,11 +32,13 @@ class Example extends React.Component {
   }
 
   handleClick(event) {
-    // Notification Clicked
     // Do something here such as
+    // console.log("Notification Clicked") OR
     // window.focus() OR
     // window.open("http://www.google.com")
-    this.n.close(event.target.tag); // Close the notification when the user clicks it
+
+    // Close the notification when the user has clicked it
+    this.n.close(event.target.tag);
   }
 
   render() {
@@ -44,7 +46,7 @@ class Example extends React.Component {
       <div>
 
         <ReactNotifications
-          onRef={ref => (this.n = ref)} // Required. 'n' is any variable name
+          onRef={ref => (this.n = ref)} // Required
           title="Hey There!" // Required
           body="This is the body"
           icon="icon.png"
