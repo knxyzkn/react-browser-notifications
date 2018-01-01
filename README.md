@@ -3,13 +3,13 @@ React component for the [Notifications API](https://developer.mozilla.org/en-US/
 
 
 ## Demo
-Live demo coming soon!
+[Live Demo](https://react-notif-demo.herokuapp.com/)
 
 
 ## Installation
 Using [npm](https://www.npmjs.com/):
 ```
-$ npm install --save react-browser-notifications
+npm install --save react-browser-notifications
 ```
 
 
@@ -37,7 +37,7 @@ class Example extends React.Component {
     // window.focus() OR
     // window.open("http://www.google.com")
 
-    // Close the notification when the user has clicked it
+    // Lastly, Close the notification
     this.n.close(event.target.tag);
   }
 
