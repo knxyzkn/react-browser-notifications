@@ -1,5 +1,5 @@
 # react-browser-notifications
-React component for the [Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API). The Notifications API allows web pages to control the display of system notifications to the end user. These are outside the top-level browsing context viewport, so therefore can be displayed even when the user has switched tabs or moved to a different app. This component is supported in modern web browsers such as Chrome, Safari, Firefox, Opera, and Edge.
+React component for the [Javascript Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API). The Notifications API allows web pages to control the display of system notifications to the end user. These are outside the top-level browsing context viewport, so therefore can be displayed even when the user has switched tabs or moved to a different app. This component is supported in modern web browsers such as Chrome, Safari, Firefox, Opera, and Edge.
 
 
 ## Demo
@@ -84,7 +84,7 @@ this.n.close(tag)
 ## Properties
 The `ReactNotifications` component accepts the following props
 
-Name  | Type | Required | Description
+Name  | Type | Req/Opt | Description
 --- | --- | --- | ---
 `onRef` | function | **Required** | This is required to [reference](https://reactjs.org/docs/refs-and-the-dom.html) the `ReactNotifications` component. **Recommended:** `onRef={ref => (this.n = ref)}`, where n is any variable name
 `title` | string | **Required** | Title of the notification
